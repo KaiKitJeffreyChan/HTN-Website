@@ -1,0 +1,14 @@
+POST https://localhost:3005/shipment/manageShipment HTTP/1.1
+Content-type: application/json
+
+{
+    "fromAddress" : "" ,
+    "toAddress" : "",
+    "vaccineDeliveryInfo" : {
+        "locationTo" : "ABC",
+        "locationFrom" : "EFG",
+        "sentOutDate" : "01/01/2021",
+        "recivedDate" : "01/03/2021",
+        "amount" : 10000
+    }
+}
